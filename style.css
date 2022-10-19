@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  background-color: #efd6b2;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.calcu {
+  background: linear-gradient(70deg, blue, pink);
+  border-radius: 25px;
+  width: 300px;
+  padding: 20px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 5px 5px 10px #8e96a2;
+}
+
+.page {
+  background-color: #ffffff;
+  border: none;
+  width: 100%;
+  height: 50px;
+  border-radius: 20px;
+  margin: 10px 0;
+  text-align: right;
+  font-size: 20px;
+  padding: 0 20px;
+}
+
+.page:focus {
+  outline: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+button {
+  border: none;
+  background-color: #7c0f8f;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 24px;
+  width: 60px;
+  height: 40px;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
